@@ -1,17 +1,14 @@
 import React, { Component } from 'react';
+
+import { Question } from './Question';
+
 import '../css/App.css';
-// import components
 
-class App extends Component {
 
+export class App extends Component {
   render() {
-    return (
-      <div className="app">
-        Trivia!
-        
-      </div>
-    );
+    return (<div className="app">
+      <Question/>
+    </div>);
   }
 }
-
-export default App;
