@@ -2,6 +2,6 @@ import React, { Component } from 'react';
 
 export class AnswerButton extends Component {
     render() {
-      return (<button>???</button>);
+      return (<button>this.props.answer</button>);
     }
   }
