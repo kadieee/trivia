@@ -11,10 +11,10 @@ export class Question extends Component {
         <QuestionText/>
         <div>
           <div className="answer">
-            <AnswerButton name="answer1" answer= {this.props.answer}/>
-            <AnswerButton name="answer2" answer= {this.props.answer}/>
-            <AnswerButton name="answer3" answer= {this.props.answer}/>
-            <AnswerButton name="answer4" answer= {this.props.answer}/>
+            <AnswerButton name="answer1" answer= {this.props.answer1}/>
+            <AnswerButton name="answer2" answer= {this.props.answer2}/>
+            <AnswerButton name="answer3" answer= {this.props.answer3}/>
+            <AnswerButton name="answer4" answer= {this.props.answer4}/>
         </div>
       </div>
       </div>

@@ -31,13 +31,13 @@ export class App extends Component {
 
   render() {
     return (<div className="app">
-      <Question question= "What is one plus one?" 
-      Answer answer1= "2.5"
-       answer2= "3"
-       answer3= "12"
-       answer4= "2"
+      <Question question="What is one plus one?" 
+       answer1="2.5"
+       answer2="3"
+       answer3="12"
+       answer4="2"
       />
-      <Title title= "Questions" />
+      <Title title="Do you know addition?" />
     </div>);
   }
 }
